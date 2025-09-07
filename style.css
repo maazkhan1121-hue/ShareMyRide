@@ -1,0 +1,86 @@
+/* Base styles */
+body {
+    background-color: #e8f5e9; /* light green background */
+    font-family: Arial, sans-serif;
+    color: #1b5e20; /* dark green text */
+    margin: 0;
+    padding: 0;
+}
+
+/* Headings */
+h1 {
+    color: #2e7d32;
+    text-align: center;
+}
+h2 {
+    color: #388e3c;
+}
+
+/* Navigation bar */
+nav {
+    background-color: #2e7d32;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+    padding: 8px 12px;
+    background-color: #43a047;
+    border-radius: 5px;
+    display: inline-block;
+}
+nav a:hover {
+    background-color: #1b5e20;
+}
+
+/* Hero section */
+.hero {
+    text-align: center;
+    padding: 20px;
+}
+.hero img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+.cta-button {
+    background-color: #81c784;
+    color: #1b5e20;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.cta-button:hover {
+    background-color: #66bb6a;
+}
+
+/* Table */
+table {
+    width: 90%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    background-color: #f1f8e9;
+}
+th, td {
+    border: 1px solid #a5d6a7;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #43a047;
+    color: white;
+}
+
+/* Footer */
+footer {
+    background-color: #2e7d32;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    margin-top: 20px;
+}
